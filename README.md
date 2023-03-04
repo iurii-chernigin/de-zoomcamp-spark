@@ -1,4 +1,4 @@
-# Week 5 - Batch Processing
+# Week 5 - Spark Batch Processing
 
 - Batch processing
 - What is Spark
