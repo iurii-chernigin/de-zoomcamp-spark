@@ -16,3 +16,11 @@ types.StructType([
     types.StructField('Zone', types.StringType(), True), 
     types.StructField('service_zone', types.StringType(), True)
 ])
+
+# FHVF trips report structure
+types.StructType([
+    types.StructField('pickup_hour', types.TimestampType(), True),
+    types.StructField('pickup_zone', types.IntegerType(), True), 
+    types.StructField('all_trips_duration_hours', types.DoubleType(), True), 
+    types.StructField('total_trips', types.IntegerType(), True)
+])
